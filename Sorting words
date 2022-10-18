@@ -1,0 +1,32 @@
+/data/user/0/org.qpython.qpy3/files/bin/qpython3-android5.sh && exit
+iles/bin/qpython3-android5.sh && exit   <
+Python 3.6.6 (qpyc:3.6.6, Jul 26 2018, 03:54:22) [BUILD WITH QPY3-TOOLCHAIN (https://github.com/qpython-android) ] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> my_str = "Hello this Is an Example With cased letters"
+
+# To take input from the user
+#my_str = input("Enter a string: ")
+
+# breakdown the string into a list of words
+words = [word.lower() for word in my_str.split()]
+
+# sort the list
+words.sort()
+
+# display the sorted words
+
+print("The sorted words are:")
+for word in words:
+   print(word)>>> >>> ... ... >>> ... >>> >>> ... >>> >>> ... >>> The sorted words are:
+>>> ...
+...
+an
+cased
+example
+hello
+is
+letters
+this
+with
+>>>
+>>>
