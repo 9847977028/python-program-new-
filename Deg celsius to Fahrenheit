@@ -1,0 +1,13 @@
+/data/user/0/org.qpython.qpy3/files/bin/qpython3-android5.sh && exit
+iles/bin/qpython3-android5.sh && exit   <
+Python 3.6.6 (qpyc:3.6.6, Jul 26 2018, 03:54:22) [BUILD WITH QPY3-TOOLCHAIN (https://github.com/qpython-android) ] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> celsius = 37.5
+
+# calculate fahrenheit
+fahrenheit = (celsius * 1.8) + 32
+print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahrenheit))>>> >>> ... >>>
+37.5 degree Celsius is equal to 99.5 degree Fahrenheit
+>>>
+>>>
+>>>
