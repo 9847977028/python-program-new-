@@ -1,0 +1,21 @@
+/data/user/0/org.qpython.qpy3/files/bin/qpython3-android5.sh && exit
+iles/bin/qpython3-android5.sh && exit   <
+Python 3.6.6 (qpyc:3.6.6, Jul 26 2018, 03:54:22) [BUILD WITH QPY3-TOOLCHAIN (https://github.com/qpython-android) ] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+
+my_str = "Hello!!!, he said ---and went."
+
+# To take input from the user
+# my_str = input("Enter a string: ")
+
+# remove punctuation from the string
+no_punct = ""
+for char in my_str:
+   if char not in punctuations:
+       no_punct = no_punct + char
+
+# display the unpunctuated string
+print(no_punct)>>> >>> >>> >>> ... ... >>> ... >>> ... ... ... >>> ...
+Hello he said and went
+>>>
